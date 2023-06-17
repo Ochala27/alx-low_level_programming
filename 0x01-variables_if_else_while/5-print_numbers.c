@@ -11,5 +11,5 @@ for (o = 0; o <= 9; o++)
 printf("%d", o);
 }
 printf("\n");
-return (o);
+return (0);
 }

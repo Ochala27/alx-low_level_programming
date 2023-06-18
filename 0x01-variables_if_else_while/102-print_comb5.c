@@ -16,7 +16,7 @@ putchar((p / 10) + 48);
 putchar((p % 10) + 48);
 putchar(' ');
 putchar((o / 10) + 48);
-putchar((0 % 10) + 48);
+putchar((o % 10) + 48);
 if (p != 98 || 0 != 99)
 {
 putchar(',');

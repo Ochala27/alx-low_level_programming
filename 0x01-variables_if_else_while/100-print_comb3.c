@@ -1,27 +1,27 @@
 #include <stdio.h>
 /**
- * main - Inventing is a combination
- * Return: always return 0
+ * main - Two digits
+ * Return: always returne 0
  */
 int main(void)
 {
-int c;
-int p = 0;
-while (p < 10)
+int p, c;
+for (p = 48; p <= 56; p++)
 {
-if (p != c && p < c)
+for (c = 49; c <= 57; c++)
 {
-putchar('0' + p);
-putchar('0' + c);
-if (c + p != 17)
+if (c > p)
+{
+putchar(p);
+putchar(c);
+if (p != 56 || c != 57)
 {
 putchar(',');
 putchar(' ');
 }
 }
-c++;
 }
-p++;
+}
 putchar('\n');
 return (0);
 }

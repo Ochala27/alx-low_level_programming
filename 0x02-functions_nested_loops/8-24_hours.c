@@ -20,6 +20,7 @@ _putchar(c + '0');
 _putchar(58);
 _putchar(h + '0');
 _putchar(a + '0');
+_putchar('\n');
 }
 }
 }

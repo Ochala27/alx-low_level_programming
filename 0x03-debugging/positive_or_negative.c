@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * positive_or_negative - print positive_or_negative.c
+ * Return: Always return 0
+ * @i: parameter
+ */
 void positive_or_negative(int i)
 {
 if (i > 0)
@@ -9,4 +14,5 @@ else if (1 < 0)
 
 else
 	printf("%d is zero\n", i);
+return (0);
 }

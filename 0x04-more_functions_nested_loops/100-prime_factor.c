@@ -16,6 +16,6 @@ if (number % x == 0)
 maxf = number / x;
 }
 }
-printf("%1d\n", maxf);
+printf("%ld\n", maxf);
 return (0);
 }

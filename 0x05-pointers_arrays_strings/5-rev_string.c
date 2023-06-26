@@ -23,12 +23,12 @@ length--;
  */
 int _strlen(char *s)
 {
-int count, inc;
-inc = 0;
+int count, o;
+o = 0;
 for (count = 0; s[count] != '\0'; count++)
-inc++;
+o++;
 
-return (inc);
+return (o);
 }
 
 /**

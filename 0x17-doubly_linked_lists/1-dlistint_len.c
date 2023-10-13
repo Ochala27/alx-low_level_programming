@@ -1,16 +1,16 @@
 #include "lists.h"
 
 /**
- * dlistint_len - printing a double linked list
- * @h: pointer to the head of the list
- * Return: size of the list
+ * dlistint_len - Printing a double linked list
+ * @h: Pointer to the head of the list
+ * Return: Size of the list
  */
 
 size_t dlistint_len(const dlistint_t *h)
 {
 	int len = 0;
 
-	whle (h != NULL)
+	while (h != NULL)
 	{
 		len++;
 		h = h->next;
